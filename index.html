@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Pormang Lokal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/bootstrap-5.3.3/dist/css/bootstrap.css">
+</head>
+
+<body class="text-light">
+  <nav class="navbar navbar-expand-lg position-fixed p-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" >Pormang Lokal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="items nav-item">
+            <a class="locate nav-link px-5 py-3" href="#">Home</a>
+          </li>
+          <li class="items nav-item">
+            <a class="locate nav-link px-5 py-3" href="catalog.html">Catalog</a>
+          </li>
+          <li class="items nav-item">
+            <a class="locate nav-link px-5 py-3" href="#contact">Contact</a>
+          </li>
+          <li class="items nav-item">
+            <a class="locate nav-link px-5 py-3" href="#about">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="intro">
+    <div class="intro-text">
+      <h1>Pormang Lokal </h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat veniam officia! Sint neque autem, amet
+        consectetur adipisicing elit. minima sit quo porro assumenda quasi dolorem in doloremque rem excepturi esse
+        quae, cumque atque!</p>
+      <button class="learnMore" onclick="window.location = 'index.html#about'">Learn More</button>
+    </div>
+    <a href="#" class="toTop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="130" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+      <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+    </svg>
+  </a>
+  </section>
+  <div class="cover-img"></div>
+
+  <div id="textCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Carousel items (text pages) -->
+      <div class="carousel-item active">
+        <div>
+          <h1>DBTK Clothing</h1>
+          <p>Available on our Store</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div>
+          <h1>HGHMNDS Clothing</h1>
+          <p>Available on our Store</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div>
+          <h1>MSTR Clothing</h1>
+          <p>Available on our Store</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div>
+          <h1>RECIPE Clothing</h1>
+          <p>Available on our Store</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div>
+          <h1>UNDRAFTED Clothing</h1>
+          <p>Available on our Store</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#textCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#textCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <section class="thrd-section">
+    <div class="container py-5">
+      <h1 class="mb-5">Best Sellers</h1>
+
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 g-4 ">
+        <div class="col">
+          <div class="img-container">
+            <img src="assets/images/clothes/cloth-1.png" alt="Image 1" class="img-fluid">
+          </div>
+        </div>
+        <div class="col">
+          <div class="img-container">
+            <img src="assets/images/clothes/cloth-2.png" alt="Image 2" class="img-fluid">
+          </div>
+        </div>
+        <div class="col">
+          <div class="img-container">
+            <img src="assets/images/clothes/cloth-3.png" alt="Image 3" class="img-fluid">
+          </div>
+        </div>
+        <div class="col">
+          <div class="img-container">
+            <img src="assets/images/clothes/cloth-4.png" alt="Image 4" class="img-fluid">
+          </div>
+        </div>
+        <div class="col">
+          <div class="img-container">
+            <img src="assets/images/clothes/cloth-5.png" alt="Image 5" class="img-fluid">
+          </div>
+        </div>
+        <div class="col">
+          <div class="img-container">
+            <img src="assets/images/clothes/cloth-6.png" alt="Image 6" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="frth-section w-100">
+    <div class="shop-now">
+      <button onclick="window.location='catalog.html';" class="shop-now-btn">Shop Now</button>
+    </div>
+  </section>
+
+
+  <section id="contact" class="fft-section pt-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h4><em>Have a Question? <strong>We're Here to Help</strong></em></h4>
+          <p>Email us at <a href="mailto:info@my-domain.com" class="text-white">pormanglokal@gmail.com</a> or send us a
+            message via the contact form below and we'll get back to you.</p>
+          <form>
+            <div class="row mb-3">
+              <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" placeholder="First name *" required>
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Last name *" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Email *" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Type your message here... *" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom w-100 py-2">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="infos m-auto p-5 text-center text-dark mt-3 rounded-5">
+            <h4><em>Our Stores</em></h4>
+            <p>RV Building Sto. Rosario Capas Tarlac<br>Phone: 0938 171 9939</p>
+            <p>15st. Mabalacat Pampanga<br>Phone: 0938 171 9939</p>
+            <h4><em>Follow Us</em></h4>
+            <p><strong>Instagram:</strong><a class="text-dark"
+                href="https://www.instagram.com/pormang_lokal/?fbclid=IwY2xjawJY6b1leHRuA2FlbQIxMAABHZ2SIqUSG830PoAZ315YZNscvu4TFPro2vKkfzjoeCZXiofxLOUGffjPzw_aem_wSIm40qwiAvDJKpyf_9nfw#">
+                pormang_lokal</a></p>
+            <p><strong>Facebook:</strong><a class="text-dark" href="https://web.facebook.com/pormanglokalph"> Pormang Lokal</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="maps-container d-flex justify-content-evenly">
+    <div class="maps">
+      <h3 class="text-center">Madapdap Mabalakat Branch</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31336.034275262726!2d120.60338284444009!3d15.230319032458778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396edcf9df40313%3A0xae9c7c4240eee767!2sPORMANG%20LOKAL!5e0!3m2!1sen!2sph!4v1743520274941!5m2!1sen!2sph"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="maps">
+      <h3>Sto. Rosario Capas Branch</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.7715719780263!2d120.58643507416413!3d15.334644158686137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396c11e07b0a27f%3A0x9046f96dbb4d3326!2sPormang%20Lokal%20Capas%20Branch!5e0!3m2!1sen!2sph!4v1743520338129!5m2!1sen!2sph"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="about-header">
+      <h1>
+        About Us
+      </h1>
+    </div>
+    <div class="about-content">
+      <h1>History</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida lacus scelerisque, dictum arcu quis,
+        viverra massa. Cras congue justo vitae leo facilisis dapibus. Etiam vehicula euismod est, vitae venenatis quam
+        interdum ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        Praesent et placerat urna. Praesent sed lorem vel purus ullamcorper facilisis. Suspendisse imperdiet diam sed mi
+        finibus, id interdum metus lobortis. Curabitur egestas euismod lorem. Duis imperdiet quis felis quis facilisis.
+        Donec scelerisque tellus eu enim congue consectetur. Praesent non luctus tortor, id varius ligula. Nulla
+        facilisi. Curabitur aliquet dui eu odio feugiat maximus. Pellentesque vel odio aliquam, venenatis mauris in,
+        rutrum dolor. Proin vitae erat eu erat accumsan consequat ut in mi. Morbi condimentum sem et felis eleifend, ac
+        sodales risus rhoncus.
+        Mauris scelerisque convallis risus, quis commodo quam. Cras condimentum nunc sit amet enim lobortis, in sodales
+        lectus egestas. Fusce rhoncus auctor lacus, at rutrum mauris tincidunt vitae. Praesent urna nunc, faucibus et
+        lorem a, sodales sodales massa. Aenean luctus lacinia nulla, id vestibulum lectus sagittis vitae. Duis eget
+        aliquet risus, vitae laoreet elit. Sed lacinia diam id neque porttitor finibus. Maecenas in rutrum diam. In ac
+        urna luctus, venenatis tortor nec, molestie libero. In elementum ultricies quam, nec tincidunt sem lobortis
+        vitae. Phasellus dui orci, tempus vel efficitur in, facilisis a est. Praesent sagittis a ipsum non posuere.
+        Vivamus sollicitudin enim ac velit lobortis, eget molestie lectus tempus. Nunc non dignissim dolor, id euismod
+        ex. Ut et nibh nisi.</p>
+      <h1>Mission</h1>
+      <p>Quisque in purus eu turpis laoreet lobortis. Proin efficitur porta turpis, sed consectetur risus consectetur
+        ac. Duis venenatis quam eget nibh iaculis malesuada. Maecenas felis lectus, sollicitudin eget magna ut, suscipit
+        porttitor lectus. Integer laoreet nunc sit amet cursus tincidunt. Phasellus fermentum lobortis nunc. Curabitur
+        tincidunt varius eros, at tempus mi aliquam a. Phasellus rhoncus pulvinar congue. Duis lectus tellus, tristique
+        sit amet eros luctus, faucibus varius odio. Aliquam erat volutpat. Etiam purus turpis, ornare eget ullamcorper
+        vitae, dignissim non quam. Quisque nec lorem euismod, ultricies ipsum in, ultricies lacus. Donec eget semper
+        ipsum, non congue purus. Maecenas vulputate dictum erat eget dignissim. Sed ac rutrum ex. Mauris in malesuada
+        purus, ac posuere nisl.</p>
+      <h1>Vision</h1>
+      <p>Nulla auctor tellus eget efficitur commodo. Orci varius natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Etiam lobortis dui fringilla orci facilisis mattis. In faucibus sodales dignissim. Cras
+        at dui ut ante feugiat aliquet ut vel nunc. Ut sit amet lobortis risus. Cras vehicula libero placerat molestie
+        porta. Etiam sit amet tortor eu tellus blandit cursus eget sed mi. Praesent dignissim massa nec nisi accumsan,
+        id porttitor felis elementum. Proin vitae maximus erat. Ut in lectus maximus, maximus augue id, imperdiet dui.
+        Duis nec mauris nec eros tempus dictum. Etiam convallis, elit eu accumsan vehicula, felis urna viverra tortor,
+        sit amet efficitur ante ex et mauris.</p>
+    </div>
+
+  </section>
+  <footer class="bg-dark text-white py-4">
+    <div class="copyright text-center">
+      <div>
+        <p>&copy; 2025 Pormang Lokal. All Rights Reserved.</p>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <script src="assets/bootstrap-5.3.3/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
