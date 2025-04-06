@@ -1,0 +1,437 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+  font-family: cursive;
+}
+
+body {
+  background-color: rgb(53, 53, 53);
+}
+
+
+/* NAVBAR*/
+
+.navbar {
+  background-color: rgb(255, 206, 27);
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: right;
+
+  .locate {
+    font-weight: 600;
+  }
+}
+
+.items:hover {
+  transition: 0.3s;
+  background-color: rgb(53, 53, 53);
+
+  .locate {
+    color: whitesmoke;
+  }
+}
+
+/*Section-1*/
+.intro {
+  background-attachment: fixed;
+  background-position: center;
+  background-image: linear-gradient(rgba(29, 29, 29, 0.911), rgba(29, 29, 29, 0.87)), url(assets/images/backgrounds/intro-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.toTop{
+  text-decoration: none;
+  color: rgb(173, 138, 9);
+  position: fixed;
+  right: 10px;
+  bottom: -30px;
+}
+
+.intro-text {
+  width: 65%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  padding-top: 14em;
+}
+
+.learnMore {
+  background-color: rgb(255, 206, 27);
+  color: rgb(53, 53, 53);
+  padding: 15px 50px;
+  margin: 20px;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 600;
+  border: none;
+  font-weight: 700;
+}
+
+.ToSomeThing:hover {
+  transition: 0.5s ease;
+  background-color: rgb(53, 53, 53);
+  color: whitesmoke;
+
+}
+
+/*Section-3*/
+.thrd-section {
+  background-image: linear-gradient(rgba(78, 77, 77, 0.911), rgba(51, 50, 50, 0.87)), url(assets/images/backgrounds/bg-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+
+.container h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.img-container {
+
+  border-radius: 8px;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.img-container:hover img {
+  transform: scale(1.08);
+}
+
+.frth-section {
+  background-color: black;
+  padding: 10px;
+
+}
+
+.shop-now {
+
+  background-color: rgb(0, 0, 0);
+  width: 50%;
+  margin: auto;
+}
+
+.shop-now-btn {
+  font-weight: 600;
+  padding: 10px 50px;
+  outline: none;
+  border: none;
+  background-color: rgb(255, 206, 27);
+  width: 100%;
+  color: rgb(0, 0, 0);
+
+
+}
+
+.shop-now-btn:hover {
+  transition: 0.5s ease;
+  background-color: rgb(53, 53, 53);
+  color: whitesmoke;
+
+
+}
+
+
+
+
+.carousel {
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(255, 206, 27);
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carousel-item p {
+  font-size: 1.2rem;
+}
+
+.catalog {
+  background-color: rgb(53, 53, 53);
+  padding-top: 75px;
+}
+
+.catalog .navbar-custom {
+  background-color: rgb(255, 206, 27);
+}
+
+.catalog .navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.catalog .nav-link {
+  color: black;
+}
+
+.catalog .navbar-nav {
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.catalog .nav-link::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background-color: black;
+  display: block;
+  transition: all 0.2s;
+  pointer-events: none;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.catalog .nav-link:hover::after {
+  opacity: 1;
+  width: 100%;
+  transition: 0.4s;
+}
+
+.products {
+  background-color: rgb(53, 53, 53);
+  color: whitesmoke;
+}
+
+.products .card {
+  width: 18rem;
+  background-color: rgb(53, 53, 53);
+  border: none;
+
+}
+
+.card .btn {
+  background-color: rgb(53, 53, 53);
+  color: whitesmoke;
+  border: none;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.card .btn:hover {
+  background-color: rgb(255, 206, 27);
+  color: black;
+}
+
+.logos {
+  width: 50px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.fft-section,
+.maps-container {
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
+
+.fft-section .form-control,
+.form-control::placeholder {
+  color: white;
+}
+
+.fft-section .btn-custom {
+  background-color: rgb(255, 206, 27);
+  border: none;
+}
+
+.fft-section .btn-custom:hover {
+  background-color: #495057;
+
+}
+
+.fft-section .infos {
+  background-color: rgb(255, 206, 27);
+  width: 75%;
+}
+
+.maps-container {
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+}
+
+.about {
+  background-image: linear-gradient(rgba(53, 53, 53, 0.711), rgba(53, 53, 53, 0.711)), url(assets/images/backgrounds/bg-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 2%;
+}
+
+.about-header {
+  background-color: rgba(53, 53, 53, 0.711);
+  padding: 20px;
+  width: 80%;
+  margin-bottom: 10%;
+}
+
+.about-content {
+  width: 90%;
+  background-color: rgba(53, 53, 53, 0.711);
+  padding: 20px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.maps {
+  width: 40%;
+}
+
+iframe {
+  width: 100%;
+}
+
+.cover-img {
+  background-image: url(assets/images/backgrounds/pormang-lokal-cover.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+/*For width responsive*/
+@media (max-width:1115px) {
+  .cover-img {
+    height: 70vh;
+  }
+}
+
+@media (max-width:865px) {
+  .maps-container {
+    flex-direction: column;
+
+    .maps {
+      width: 90%;
+      margin: auto;
+    }
+  }
+}
+
+@media (max-width:785px) {
+  .cover-img {
+    height: 60vh;
+  }
+}
+
+@media (max-width:600px) {
+  .cover-img {
+    height: 40vh;
+  }
+}
+
+@media (max-width:575px) {
+  .thrd-section .img-container {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+@media (max-width:535px) {
+  .cover-img {
+    height: 35vh;
+  }
+}
+
+@media (max-width:490px) {
+  .navbar2 .navbar-brand {
+    font-size: 25px;
+  }
+}
+
+@media (max-width:385px) {
+  .navbar2 .navbar-brand {
+    font-size: 20px;
+  }
+
+  .navbar2 span {
+    font-size: 13px;
+  }
+}
+
+@media (max-width:375px) {
+  .intro-text {
+    width: 80%;
+    padding-top: 10em;
+  }
+
+  .carousel {
+    height: 10vh;
+
+    h1 {
+      font-size: 25px;
+    }
+  }
+
+  .cover-img {
+    height: 40vh;
+  }
+
+  .fft-section .container {
+    width: 90%;
+
+  }
+
+  .fft-section .infos {
+    width: 95%;
+  }
+
+}
+
+/* for height*/
+
+@media(max-height:530px) {
+  .carousel h1 {
+    font-size: 25px;
+
+  }
+}
+
+@media(max-height:430px) {
+  .intro {
+    height: 100vh;
+  }
+
+  .intro-text {
+    padding-top: 7em;
+  }
+}
+
+@media(min-height:1024px) {
+  .intro {
+    height: 75vh;
+  }
+}
