@@ -5,7 +5,7 @@ h4,
 h5,
 h6,
 .navbar-brand {
-  font-family: cursive;
+  font-family:'monaco';
 }
 
 body {
@@ -420,7 +420,7 @@ iframe {
   }
 }
 
-@media(max-height:430px) {
+@media(max-height:470px) {
   .intro {
     height: 100vh;
   }
@@ -429,6 +429,25 @@ iframe {
     padding-top: 7em;
   }
 }
+@media(max-height:350px) {
+  .intro {
+    height: 100%;
+    .intro-text{
+      padding:60px 0px 10px 0px ;
+    }
+  }
+  
+  .learnMore{
+    padding: 5px 25px;
+    font-weight: 600;
+    margin: 5px;
+  }
+
+  .intro-text {
+    padding-top: 7em;
+  }
+}
+
 
 @media(min-height:1024px) {
   .intro {
