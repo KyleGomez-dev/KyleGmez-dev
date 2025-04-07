@@ -260,11 +260,7 @@ body {
   background-color: rgb(53, 53, 53);
   color: white;
 }
-
-.fft-section .form-control,
-.form-control::placeholder {
-  color: white;
-}
+ 
 
 .fft-section .btn-custom {
   background-color: rgb(255, 206, 27);
